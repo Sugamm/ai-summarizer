@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Demo from './components/Demo';
 
 import './App.css';
+import Pricing from './components/Pricing';
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <div className='app'>
             <Hero />
             <Demo />
+            <Pricing />
         </div>
     </main>
   )

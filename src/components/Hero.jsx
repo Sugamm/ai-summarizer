@@ -6,19 +6,18 @@ const Hero = () => {
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
         <img src={logo} alt="sumz_logo" className='w-28 object-contain' />
-        <button type='button' onClick={() => window.open("https://github.com/Sugamm/ai-summarizer")} className='black_btn' 
+        <button type='button' onClick={() => window.open("#")} className='black_btn' 
         >
-          Github
+          API Document
         </button>
       </nav>
       <h1 className='head_text'>
-        Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient'>OpenAI GPT-4</span>
+      Condense books into concise<br className='max-md:hidden' />
+        <span className='orange_gradient'>summaries briefly</span>
       </h1>
 
       <h2 className='desc'>
-        Simplify your reading with summarize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+       Streamline your reading with Summarize—an API-powered tool that converts lengthy articles/books into clear, concise summaries in any language for efficiency. 
       </h2>
     </header>
   )
